@@ -58,19 +58,6 @@ body, html {
     top: 0px;
 }
 
-/*.home-page {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: transparent;
-}*/
-
-/*#blank-page {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    background: transparent;
-}*/
 
 .bandimg {
     background-image: url('../images/4k_bandimg.png');
@@ -155,15 +142,7 @@ body, html {
     color: darkgrey;
 
 }
-/*#album-page {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    top:0;
-    left:0;
-    overflow: hidden;
-}*/
+
 
 .album-img {
     /*margin-right: 20px;*/
@@ -201,15 +180,6 @@ body, html {
     color: white;
 }
 
-/*#shows-page {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    top:0;
-    left:0;
-    overflow: hidden;
-}*/
 
 .shows-info {
     list-style-type: none;
@@ -218,15 +188,13 @@ body, html {
     color: white;
 }
 
-#instagram_feed{
+/*#instagram_feed{
   list-style:none
   position: absolute;
   z-index: 55000001;
 }
 #instagram_feed li{
   float:left;
-  width:612px;
-  height:612px;
   position: absolute;
   z-index: 55;
 }
@@ -234,13 +202,4 @@ body, html {
   max-width:100%;
   max-height:100%;
 }
-
-/*#photos-page {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    top:0;
-    left:0;
-    overflow: hidden;
-}*/
+*/

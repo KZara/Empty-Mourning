@@ -9,7 +9,7 @@ $.ajax({
     data: {access_token: token, count: num_photos},
     success: function(data){
         for( x in data.data ){
-            $('#instagram_feed').append('<li><img src="'+data.data[x].images.standard_resolution.url+'"></li>');
+            $('.carousel').append('<div class="carousel-cell"> <img src="'+data.data[x].images.standard_resolution.url+'"></div>');
         }
     },
     error: function(data){
