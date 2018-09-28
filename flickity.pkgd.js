@@ -4678,7 +4678,9 @@ $(document).ajaxComplete(function( event, request, settings ) {
   $carousel.flickity({
     // options
     cellAlign: 'left',
-    contain: true
+    contain: true,
+    percentPosition: false,
+    imagesLoaded: true
   });
 });
 

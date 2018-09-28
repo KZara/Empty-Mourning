@@ -15,7 +15,9 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link id="flickity" rel="stylesheet" href="assets/css/flickity.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script> 
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
     <script src="jquery-3.2.1.js"></script>
 </head>
 
@@ -75,10 +77,10 @@
             <div class="col-md-8"> </div>
             <div class="col-md-3">
                 <ul id="topmenu">
-                    <li><a href="#shows">Shows</a></li>
-                    <li><a href="#videos">Videos</a></li>
-                    <li><a href="#discography">Discography</a></li>
-                    <li><a href="#photos">Photos</a></li>
+                    <li><a id="album-link" href="#album-page">Latest EP</a></li>
+                    <li><a id="shows-link" href="#shows-page">Shows</a></li>
+                    <li><a id="photos-link" href="#photos-page">Photos</a></li>
+                    <!-- <li><a id="shows-link" href="#shows-page">Shows</a></li> -->
                     <li> 
                         <a href="https://open.spotify.com/artist/0J6CKwXkFp76E3e92FnWYt" > <img src="assets/images/spotify.png" style="height: 24px;"> </a> 
 
@@ -97,7 +99,7 @@
 
     <div id="wallpaper"> </div>
 
-    <div id="wallpaper2"> </div>
+    <!-- <div id="wallpaper2"> </div> -->
 
 
     <div id="blank-page" class="full-page"> </div>
@@ -107,7 +109,7 @@
         <!-- <div class="album-page-left">
             <img class="album-img"; style="height: 50%;" src="assets/images/raw.jpg">
         </div> -->
-        <div class="col-sm-6">
+        <div id="album-image-container" class="col-sm-6">
             <img id="album-cover" src="assets/images/transparent_bg.png">
         </div>
         <div class="col-sm-6">
@@ -154,13 +156,17 @@
     <div id="photos-page" class="full-page">
         <h1 class="page-title"> PHOTOS </h1>
         <div class="carousel">  
-            <!-- InstaPhotos loaded with em-instagramjs1.0.js -->
+
         </div>
     </div>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-            <script src="emjs.js"></script>
-            <script src="em-instagramjs1.0.js"></script>
-            <!-- <script src="flickity.pkgd.min.js"></script> -->
-            <script src="flickity.pkgd.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="emjs.js"></script>
+
+    <script src="jquery-3.2.1.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="em-instagramjs1.0.js"></script>
+    <script src="flickity.pkgd.js"></script>
 </body>
 </html>

@@ -155,13 +155,14 @@ body { font-family: sans-serif; }
   display: none;
 }
 
-.carousel-cell {
-  width: 33%;
+/*.carousel-cell {
+  width: 25%;
   overflow: hidden;
-}
+}*/
 
 .carousel-cell img {
-  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
   display: block;
   height: 200px;
 }

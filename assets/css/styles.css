@@ -39,6 +39,7 @@ body, html {
     top:0;
     left:0;
     overflow: hidden;
+    position: relative;
 }
 
 #dark-navbar {
@@ -58,6 +59,16 @@ body, html {
     top: 0px;
 }
 
+/*.home-page {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}*/
+
+#blank-page {
+    z-index: -1;
+}
 
 .bandimg {
     background-image: url('../images/4k_bandimg.png');
@@ -138,11 +149,10 @@ body, html {
 }
 
 #topmenu a:hover {
-
-    color: darkgrey;
+    -webkit-filter: drop-shadow(3px 3px 0px grey);
+    filter: drop-shadow(3px 3px 1.5px grey); 
 
 }
-
 
 .album-img {
     /*margin-right: 20px;*/
@@ -180,6 +190,15 @@ body, html {
     color: white;
 }
 
+/*#shows-page {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top:0;
+    left:0;
+    overflow: hidden;
+}*/
 
 .shows-info {
     list-style-type: none;
@@ -188,18 +207,12 @@ body, html {
     color: white;
 }
 
-/*#instagram_feed{
-  list-style:none
-  position: absolute;
-  z-index: 55000001;
-}
-#instagram_feed li{
-  float:left;
-  position: absolute;
-  z-index: 55;
-}
-#instagram_feed li img{
-  max-width:100%;
-  max-height:100%;
-}
-*/
+/*#photos-page {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top:0;
+    left:0;
+    overflow: hidden;
+}*/
