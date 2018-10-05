@@ -147,7 +147,10 @@ body { font-family: sans-serif; }
 
 
 .carousel {
-  background: #EEE;
+  background: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transform: translateY(25%);
 }
 
 .carousel:after {

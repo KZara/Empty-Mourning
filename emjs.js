@@ -1,47 +1,47 @@
 // Function and variable to check if the user 
 // has scrolled. Set to true if scrolled and
 // checks every 200ms for additional scrolls. 
-var hasScrolled;
-var lst = 0; //Initial scroll position
+// var hasScrolled;
+// var lst = 0; //Initial scroll position
 
-//Remove navbar on startup
-var $nav = $('#dark-navbar');
-$nav.removeClass('dark-navbar-down').addClass('dark-navbar-up');
+// //Remove navbar on startup
+// var $nav = $('#nav');
+// $nav.removeClass('nav-down').addClass('nav-up');
 
-$(window).scroll(function(event){
-  hasScrolled = true;
-});
+// $(window).scroll(function(event){
+//   hasScrolled = true;
+// });
 
-setInterval(function() {
-  if (hasScrolled) {
-    navbarMovement();
-   // wallpaperScroll();
-    didScroll = false;
-  }
-}, 200);
+// setInterval(function() {
+//   if (hasScrolled) {
+//     navbarMovement();
+//    // wallpaperScroll();
+//     didScroll = false;
+//   }
+// }, 200);
 
-function navbarMovement() {
-    var thresh = 5; //Threshold for navbar to appear
-    var st = $(this).scrollTop(); //Current position
-    var $nav = $('#dark-navbar'); //Navbar  
+// function navbarMovement() {
+//     var thresh = 5; //Threshold for navbar to appear
+//     var st = $(this).scrollTop(); //Current position
+//     var $nav = $('#nav'); //Navbar  
 
-    if (st <= thresh){
-        $nav.removeClass('dark-navbar-down').addClass('dark-navbar-up');
-    }
+//     if (st <= thresh){
+//         $nav.removeClass('nav-down').addClass('nav-up');
+//     }
 
-    if(st > lst && st > thresh) {
-        $nav.removeClass('dark-navbar-down').addClass('dark-navbar-up');
+//     if(st > lst && st > thresh) {
+//         $nav.removeClass('nav-down').addClass('nav-up');
         
-    } 
+//     } 
 
-    else {
+//     else {
         
-        if (lst > st && st + $(window).height() < $(document).height()) {   
-            $nav.removeClass('dark-navbar-up').addClass('dark-navbar-down');
-        }
-    } 
-    lst = st;
-}
+//         if (lst > st && st + $(window).height() < $(document).height()) {   
+//             $nav.removeClass('nav-up').addClass('nav-down');
+//         }
+//     } 
+//     lst = st;
+// }
 
 $(function () {
     var documentEl = $(document);

@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 
 <html lang="en">
 <head>
@@ -22,51 +22,7 @@
 </head>
 
 <body>
-    <!-- <script src="js/scripts.js"></script> -->
-    <nav id="dark-navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-            <img id="magic" src="assets/images/raw.jpg" width="30" height="30" alt="">
-        </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Shows</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Videos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Discography</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Photos</a>
-                    </li>
-                    <!-- A dropdown menu -->
-                    <!--             
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown link
-                        </a> 
-                    </li>
-                    -->
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                
-                </ul>
-            </div>
-    </nav>
+    <navbar> </navbar>
 
     
     <div class="bandimg">
@@ -106,9 +62,6 @@
 
     <div id="album-page" class="full-page">
         <h1 class="page-title"> No Last Words </h1>
-        <!-- <div class="album-page-left">
-            <img class="album-img"; style="height: 50%;" src="assets/images/raw.jpg">
-        </div> -->
         <div id="album-image-container" class="col-sm-6">
             <img id="album-cover" src="assets/images/transparent_bg.png">
         </div>
@@ -155,18 +108,31 @@
 
     <div id="photos-page" class="full-page">
         <h1 class="page-title"> PHOTOS </h1>
-        <div class="carousel">  
-
+        <div id="instagram-banner">
+            <img id="insta-logo" src="assets/images/inverted_glpyh_logo.png">
+            <h3 id="insta-name"> @emptymourningca </h3>
         </div>
+            <!-- <div class="col-sm-4"> </div>
+            <div class="col-sm-4">
+                <ul> emptymourningca </ul>
+                <img id=insta_logo src="assets/images/inverted_glyph_logo.png"> 
+            </div>
+            <div class="col-md-4"></div> -->
+            
+            <div class="carousel">  
+            </div>
     </div>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="emjs.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
+    <script src="emjs.js"></script>
     <script src="jquery-3.2.1.js"></script>
     <script src="jquery-ui.min.js"></script>
     <script src="jquery-ui.js"></script>
     <script src="em-instagramjs1.0.js"></script>
     <script src="flickity.pkgd.js"></script>
+    <script src="navbar.js"></script>
 </body>
 </html>

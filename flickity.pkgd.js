@@ -4680,7 +4680,8 @@ $(document).ajaxComplete(function( event, request, settings ) {
     cellAlign: 'left',
     contain: true,
     percentPosition: false,
-    imagesLoaded: true
+    imagesLoaded: true,
+    autoPlay: true
   });
 });
 
